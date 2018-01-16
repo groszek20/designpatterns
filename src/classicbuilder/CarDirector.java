@@ -14,6 +14,6 @@ public class CarDirector {
 	}
 	
 	public Car getCar() {
-		return this.carBuilder.getCar();
+		return carBuilder.getCar();
 	}
 }
