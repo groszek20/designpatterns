@@ -2,13 +2,13 @@ package classicbuilder;
 
 public class Car {
 
-	private Engine engine;
-	private Tires tires;
+	private String engine;
+	private String tires;
 	
-	public void setEngine(Engine engine) {
+	public void setEngine(String engine) {
 		this.engine = engine;
 	}
-	public void setTires(Tires tires) {
+	public void setTires(String tires) {
 		this.tires = tires;
 	}
 	@Override

@@ -13,14 +13,14 @@ public class BMWBuilder implements CarBuilder {
 		Tires tire = new Tires();
 		tire.setType("Sliks");
 		tire.setDurability(50);
-		car.setTires(tire);
+		car.setTires("Stringowa opona");
 	}
 
 	@Override
 	public void buildEngine() {
 		Engine engine = new Engine();
 		engine.setType("R6");
-		car.setEngine(engine);		
+		car.setEngine("Stringowa engine");		
 	}
 
 	@Override
