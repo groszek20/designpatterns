@@ -21,6 +21,7 @@ public class MainApp {
 		pizza = new DoubleChesseDecorator(pizza);
 		pizza = new OliveDecorator(pizza);
 		pizza = new BeconDecorator(pizza);
+		pizza = new RabateDecorator(10, pizza);
 		orders.add(pizza);
 
 		orders.forEach(order -> System.out.println(order));
