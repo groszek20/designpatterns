@@ -16,4 +16,9 @@ public class CarDirector {
 	public Car getCar() {
 		return carBuilder.getCar();
 	}
+	
+	public void testowametoda() {
+		System.out.println("sss");
+	}
+
 }
